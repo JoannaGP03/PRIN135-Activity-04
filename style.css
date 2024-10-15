@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    /* height: 100vh; */
+    /* display: flex; */
+     justify-content: center; /* Horizontally centers the markers */
+    align-items: center; /*Vertically centers the markers */
+    background-color: #f4f4f4; /* Optional background for better contrast */
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+  }
+
+h3{
+    text-align: center;
+    margin: 20px;
+    font-family: "Palanquin", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    /* border: 3px solid red; */
+  }
+.marker{
+    width: 300px; /* Adjusted width */
+    height: 50px; /* Adjusted height */
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:3px solid green; */
+  }
+
+  .cap {
+    width: 90px;
+    height: 40px;
+  }
+  
+  .sleeve {
+    width: 175px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 20px double rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    text-align: right;
+    padding-right: 30px;
+    
+  }
+  
+  .sleeve span {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.75); /* Text color */
+    position: relative;
+    top: 15px; /* Adjust this value to move the text down */
+    left: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .cap,
+  .sleeve {
+    display: inline-block;
+  }
+
+
+  /* Colors based on Crayola Colors :) */ 
+  /* part 1 */
+  .red {
+    background: rgb(238, 32, 77);
+    box-shadow: 0 0 20px 0 rgba(238, 32, 77);
+  }
+  .orange {
+    background: rgb(255, 117, 56);
+    box-shadow: 0 0 20px 0 rgba(255, 117, 56);
+  }
+  .yellow {
+    background: rgb(252, 232, 131);
+    box-shadow: 0 0 20px 0 rgba(252, 232, 131);
+  }
+  .green {
+    background: rgb(28, 172, 120);
+    box-shadow: 0 0 20px 0 rgba(28, 172, 120);
+  }
+  .blue {
+    background: rgb(31, 117, 254);
+    box-shadow: 0 0 20px 0 rgba(31, 117, 254);
+  }
+  .violet {
+    background: rgb(146, 110, 174);
+    box-shadow: 0 0 20px 0 rgba(146, 110, 174);
+  }
+  .black {
+    background: rgb(35, 35, 35);
+    box-shadow: 0 0 20px 0 rgba(35, 35, 35);
+  }
+  .white {
+    background: rgb(237, 237, 237);
+    box-shadow: 0 0 20px 0 rgba(237, 237, 237);
+  }
+
+  /* part 2 */
+  .red-violet {
+    background: #C0448F;
+    box-shadow: 0 0 20px 0 #C0448F;
+  }
+  .carnation-pink {
+    background: #FFAACC;
+    box-shadow: 0 0 20px 0 #FFAACC;
+  }
+  .red-orange {
+    background: #FF5349;
+    box-shadow: 0 0 20px 0 #FF5349;
+  }
+  .yellow-orange {
+    background: #FFB653;
+    box-shadow: 0 0 20px 0 #FFB653;
+  }
+  .yellow-green {
+    background: #C5E384;
+    box-shadow: 0 0 20px 0 #C5E384;
+    ;
+  }
+  .blue-green {
+    background: #199EBD;
+    box-shadow: 0 0 20px 0 #199EBD;
+  }
+  .blue-violet {
+    background: #7366BD;
+    box-shadow: 0 0 20px 0 #7366BD;
+  }
+  .brown {
+    background: #B5674D;
+    box-shadow: 0 0 20px 0 #B5674D;
+  }
+
+    /* part 3 */
+  .violet-red {
+    background: rgb(247, 83, 148);
+    box-shadow: 0 0 20px 0 rgb(247, 83, 148);
+  }
+  .scarlet {
+    background: rgb(242, 40, 71);
+    box-shadow: 0 0 20px 0 rgb(242, 40, 71);
+  }
+  .apricot {
+    background: rgb(253, 217, 181);
+    box-shadow: 0 0 20px 0 rgb(253, 217, 181);
+  }
+  .green-yellow {
+    background: rgb(240, 232, 145);
+    box-shadow: 0 0 20px 0 rgb(240, 232, 145);
+  }
+  
+  .cerulean {
+    background: #1DACD6;
+    box-shadow: 0 0 20px 0 #1DACD6;
+    ;
+  }
+  .bluetiful{
+    background: #2E5090;
+    box-shadow: 0 0 20px 0 #2E5090;
+  }
+  .indigo {
+    background: #5D76CB;
+    box-shadow: 0 0 20px 0 #5D76CB;
+  }
+  .gray {
+    background: #95918C;
+    box-shadow: 0 0 20px 0 #95918C;
+  }
